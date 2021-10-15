@@ -13,9 +13,11 @@ public class média {
         
         nota1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite sua primeira nota:"));
         nota2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite sua segunda nota:"));
-
+        
+        // faça a operação soma , e depois divida para obiter a média das notas
         media = (nota1 + nota2) / 2;
         
+        // Escreva a mensagem na tela com a média para o usuario 
         JOptionPane.showMessageDialog(null, "Sua  média de nota é: " +média);
       
         
