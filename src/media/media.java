@@ -1,8 +1,8 @@
-package media;
+package média;
 
 import javax.swing.JOptionPane;
 
-public class media {
+public class média {
     public static void main(String[] args){
         // Declare as variaveis 
         int nota1 = 0;
@@ -16,7 +16,7 @@ public class media {
 
         media = (nota1 + nota2) / 2;
         
-        JOptionPane.showMessageDialog(null, "Sua  media de nota é: " +media);
+        JOptionPane.showMessageDialog(null, "Sua  média de nota é: " +média);
       
         
     }
